@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/define/Documents/cpp_tasks/leetcode",
+  "command": "/usr/bin/clang++    -fsanitize=address,leak,undefined -g -std=gnu++23 -o CMakeFiles/sosal.dir/main.cpp.o -c /home/define/Documents/cpp_tasks/leetcode/main.cpp",
+  "file": "/home/define/Documents/cpp_tasks/leetcode/main.cpp",
+  "output": "CMakeFiles/sosal.dir/main.cpp.o"
+}
+]
