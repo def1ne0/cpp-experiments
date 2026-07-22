@@ -10,7 +10,9 @@
 
 import examples.rb_tree_ex;
 
-template <typename T>
+namespace {
+
+template <class T>
 void print_tree(const typename examples::RB_tree<T>::Node* root) {
     if (root == nullptr) return;
 
@@ -18,6 +20,8 @@ void print_tree(const typename examples::RB_tree<T>::Node* root) {
     print_tree<T>(root->left_);
     print_tree<T>(root->right_);
 }
+
+} // namespace
 
 int main() {
     examples::RB_tree<int> tree{1};

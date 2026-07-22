@@ -21,6 +21,7 @@ target_sources(${PROJECT_NAME} PRIVATE
         FILE_SET modules
         TYPE CXX_MODULES FILES
         modules/examples/rb_tree_ex.cppm
+        modules/containers/tree.cppm
 )
 
 target_link_libraries(${PROJECT_NAME} gtest)

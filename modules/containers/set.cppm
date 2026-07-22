@@ -10,7 +10,7 @@ module;
 
 #include <functional> // for std::less
 
-export module set;
+export module containers.set;
 
 namespace containers {
 
@@ -18,7 +18,7 @@ export
 template <
     class Key,
     class Compare = std::less<Key>,
-    class Allocator
+    class Allocator = std::allocator<Key>
 > class set final {
 
 };
