@@ -325,6 +325,7 @@ void RB_tree<T>::fix_insertion(Node* v) {
                 p->color_ = Color::BLACK;
                 g->color_ = Color::RED;
                 left_rotate(g);
+                return;
             }
         }
     }
